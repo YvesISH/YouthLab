@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kawi Labs South Sudan</title>
+    <!-- style -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/mobile.css') }}">
+ 
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree&family=Nunito&family=Roboto&display=swap" rel="stylesheet">
+    <!-- fontawesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+
+
+</head>
+<body>
+    <!-- <nav>
+        <a href="
+        " class="brand"><img src="./imgassets/KAWI.png" alt=""></a>
+        <div class="hamburgmenu">
+            <div class="menu"></div>
+            <div class="menu"></div>
+            <div class="menu"></div>
+        </div>
+        <div class="navigation">
+            <ul class="nav">
+                <li class="navitem"><a href="">Programs</a></li>
+                <li class="navitem"><a href="">Innovations</a></li>
+                <li class="navitem"><a href="">Locations</a></li>
+                <li class="navitem"><a href="">Partners</a></li>
+
+
+            </ul>
+            <div class="main--cta">
+                <button class="cta-row study">
+                    <li><a href="">Schools Sign Up</a></li>
+                </button>
+                <button class="cta-row student">
+                    <li><a href="">Individual Students </a></li>
+                </button>
+            </div>
+        </div>
+    </nav>
+    -->
+  
+   <header>
+    <nav>
+        <a href="/" id="logo"><img src="{{ url_for('static', filename='imgassets/KAWI.png') }}" alt="Logo" >
+        </a>
+        <i class="fas fa-bars" id="ham-menu"></i>
+        <ul id="nav-bar">
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="#hero">About</a>
+          </li>
+          <li>
+            <a href="#Programs">Programs</a>
+          </li>
+          <li>
+            <a href="#">Team</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+   </header>
+   
+   
+    <main>
+        <!-- hero section -->
+        <section id="hero">
+            <!-- hero contents -->
+            <div class="hero-text mt-4">
+                <h1 class="promo ">
+                    Take a step,<br>
+                    Own the future
+                </h1>
+                <p class="promodesc">
+                    We are a computing and innovation hub in the heart of Juba. We provide technology skills and material
+                    training for young
+                    South Sudanese.
+                    
+                </p>
+                <!-- <div class="search campuses">
+                    <input type="text" class="search-box" placeholder="Find a Kawi Lab Near You...">
+                    <button class="search-btn locate-btn"><i class="fa-solid fa-location-crosshairs"></i></button>
+                </div> -->
+                <div class="herocta">
+                    <button class="main-btn"><a href="">Enroll for May Intake</a></button>
+                   
+                    <button class="main-btn btn--alt"><a href="">Speak with Us</a></button>
+                </div>
+            
+
+
+
+            </div>
+         
+           
+            
+
+        </section>
+        <!-- Programs section includes programs and the recruitment criteria -->
+        <section id="Programs" class="mt-4 mb-4">
+            <div class="sm-contain container mt-4">
+                <div class="br--1 pl-2">
+                    <h3 class="exception">What We do</h3>       
+                    <h2 class="promo--alt">
+                        We dare you to <span class="promobr--2">Learn </span><br/><span class="promobr">and Innovate</span>
+                        <br/> for
+                        <span class="promobr--alt"> Impact.
+                    </h2>
+                <!-- <p>
+                    <li><a href="">Get Started Now. Register Interest</a></li>
+                </p> -->
+                </div>
+                
+                <div class="rsm-b br--alt">
+                    <div class="cards">
+                    <h1 class="card--head">
+                        Kawi Computer Literacy Program
+                    </h1>
+                    <p class="card-programs-content">
+                        Our Projects Based Learning approach and a tested progression-proof curriculum will give you a fun-filled headstart into computing. This program will equip you with the required computing and digital skills to remain relevant in the job market, and technologically advancing world. The program delivers computing packages through in-class discovery sessions and practicals. It delves into the fundamentals of computing (current and emerging technology); and is ideal for beginners. 
+
+                    
+                       
+                    </p>
+                    <p class="card-programs-content">
+                        *Currently available for Partner Schools only. Register your school today.
+
+                    </p>
+                    
+                  
+                        <!-- <button class="main-btn">
+                            <a href="">Register</a>
+                        </button> -->
+
+                
+                    </div>
+                    <div class="cards">
+                        <h1 class="card--head">
+                         The Innovation Lab
+                        </h1>
+                        <p class="card-programs-content">
+                            Impactful innovations address the community's unmet needs, opportunities and challenges. In South Sudan, 70% of the population is youthful. We believe that to effectively address the problems in our communities, the young must be equipped with adequate technology skills to build solutions that matter.
+                            The Innovation Lab is a program for aspiring innovators with a focus on engineering solutions. Learners go through a foundational period of learning design thinking principles and programming in select languages. They can later choose to specialize in Development or Experience Design.
+     
+                        </p>
+                        <p>
+
+                        </p>
+                        <!-- <button class="main-btn">
+                            <a href="">Register</a>
+                        </button> -->
+                     </div>                
+                </div>
+               
+            </div>
+
+          
+            
+
+            <!-- how to enroll -->
+           
+            
+               
+          
+
+        </section>
+        <!-- what we give you start-->
+        <section id="offer" >
+            
+        
+            <div class="pr-2  pt-2">
+                <div class="white">
+                    <h3 class="">What We Give</h3>
+                    <h1 class="bigtext indigo" >Wholistic <br>Learning <br>Experiences.</h1>
+                </div>
+                
+            </div>
+            
+            <div class="featurewrapper ">
+                <div class="feature white ">
+                    <img src="{{ url_for('static', filename='imgassets/check.png') }}" alt="" class="icon">
+                    <h1 >The Technology</h1>
+                    <p >
+                        Each student has access to a workstation for that hands-on experience. Our labs are equipped with industry standard technology.
+                    </p>
+                </div>
+                <div class="feature white">
+                    <img src="{{ url_for('static', filename='imgassets/sharing.png') }}" class="icon" alt="">
+                    <h1 >Progression Proof Learning</h1>
+                    <p>
+                        Our curricula are developed, reviewed and refined by I.T. professionals and educators. Whether the learners choose to pursue a career in tech or use acquired skills for personal/professional development, our curriculum guarantees that you will be able to have the required skills for further growth.
+                    </p>
+                </div>
+                <div class="feature white">
+                    <img src="{{ url_for('static', filename='imgassets/teacher.png') }}" alt="" class="icon">
+                    <h1 >Professional Tutors</h1>
+                    <p>
+                        Kawi Labs Tutors are certified IT professionals with dynamic, and indepth experience working with learners at different levels of their learning journeys.
+
+                    </p>
+                </div>
+                <!-- <div class="feature white">
+                    <h1>Supportive Community</h1>
+                    <p>
+                        We value community, and the spirit of collaboration. By joining Kawi Labs, you are joining a collaborative platform of learners, and innovators with a passion for community and transformation.
+                    </p>
+                </div> -->
+            </div>
+
+
+        </section>
+        <!--/ what we give you start-->
+
+        <!-- joining -->
+        <section id="joining">
+            <div class="sm-contain container mt-4">
+                <div class="br--1">
+                    <h3 class="exception">Start Learning with Kawi</h3>       
+                    <h2 class="promo--alt">
+                        Be part of our <span class="promobr">vibrant community</span> in 3 simple steps.
+                    </h2>
+                <!-- <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores sit nulla expedita ipsum doloremque nisi delectus non unde iusto incidunt quasi excepturi nemo dicta, mollitia accusantium, nihil temporibus? Placeat, at?
+                </p> -->
+                </div>
+                <div class="br--alt">
+                    <ul class="steps ">
+                        <li class="step--item">
+                            <div class="stepbio">
+                                <time class="step">
+                                    1
+                                </time>
+                                <div class="textdesc">
+                                    <h1>Registration</h1>
+                                    <p>It's a simple process, we promise!
+                                    Partner Schools can sign up their students to the program of interest.
+                                    Individual students can access the registration forms here or at our Labs.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="step--item">
+                            <div class="stepbio">
+                                <time class="step">
+                                    2
+                                </time>
+                                <div class="textdesc">
+                                    <h1>Interviews</h1>
+                                    <p>We assess learners' ability to productively participate in our programs.
+                                    We assess for English Proficiencyv (applies to all programs). In addition, learners interested in the innovation lab must demonstrate understanding of basic computer use and fundamentals.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="step--item">
+                            <div class="stepbio">
+                                <time class="step mb-2">
+                                    3
+                                </time>
+                                <div class="textdesc">
+                                    <h1>Enrollment</h1>
+                                    <p>Congratulations! We confirm your readiness and learner status at Kawi Labs. Happy Learning.</p>
+                                </div>
+                            </div>
+                        </li>
+                        
+    
+                    </ul>              
+                </div>
+               
+            </div>
+
+        </section>
+
+        <!-- end how to join -->
+        <!-- locations -->
+        <section id="locations" class="mt-4 ">
+            <div class="container pl-2">
+                <h1 >We Are Opening Soon.</h1>
+            </div>
+            <div class="container mt-4 mb-4">
+                
+                <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=1112&amp;height=488&amp;hl=en&amp;q=Upper Nile University Road&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://connectionsgame.org/">Connections Game</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:488px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:488px;}.gmap_iframe {height:488px!important;}</style></div>
+               
+            </div>
+        </section>
+        
+        <!-- /locations -->
+        <!-- Footer -->
+        <section id="footer" >
+            
+        
+            
+            <div class="featurewrapper mt-4">
+                <div class="feature">
+                    <h1 class="indigo">KAWI LABS</h1>
+                   
+                
+                </div>
+                <div class="feature">
+                    <ul class="white">
+                        <li ><a href="" class="white">About</a></li>
+                        <li><a href="" class="white">Programs</a></li>
+                        <li><a href="" class="white">Locations</a></li>
+                        <li><a href="" class="white">Partners</a></li>
+                        <li><a href="" class="white">Innovations</a></li>
+
+
+
+                    </ul>
+                </div>
+                <div class="feature">
+                    <ul>
+                        <li>
+                            <a href="/sign-up" class="white">Schools Sign Up</a>
+                        </li>
+                        <li>
+                            <a href="" class="white">Individual Students Sign Up</a>
+                        </li>
+                        <li>
+                            <a href="" class="white">Contact for Partnerships</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="feature">
+                    
+                </div>
+            
+               
+            </div>
+            <hr>
+                        <p class="center"> All rights reserved</h6>
+
+        </section>
+    </main>
+  
+    <!-- Scripts -->
+    <!-- <script src="./app.js"></script> -->
+    <script src="{{ url_for('static', filename='scripts/app.js') }}"></script>
+
+</body>
+</html>
